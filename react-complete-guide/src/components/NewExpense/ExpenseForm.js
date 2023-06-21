@@ -1,6 +1,4 @@
-import React, {
-    useState
-} from 'react';
+import React, { useState } from 'react';
 
 import './ExpenseForm.css';
 
@@ -26,7 +24,7 @@ const ExpenseForm = () => {
             <div className = 'new-expense__controls'>
             <div className = 'new-expense__control'>
             <label> Title </label> 
-            <input type = 'text' onChange = {titleChangeHandler}/> 
+            <input type = 'text' onChange = {(titleChangeHandler)}/> 
             </div> 
             <div className = 'new-expense__control'>
             <label> Amount </label>
